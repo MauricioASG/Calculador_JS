@@ -48,4 +48,4 @@ function calculadora() {
   });
 }
 
-calculadora();
+calculadora(); //Interacción con el usuario

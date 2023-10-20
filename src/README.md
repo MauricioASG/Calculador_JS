@@ -2,6 +2,9 @@
 # Ejecutar la calculadora.
 
 Utilizar docker para ejecutar un programa en JavaScript
+- [Ejecutar la calculadora.](#ejecutar-la-calculadora)
+  - [Instalación](#instalación)
+    - [Utilizando `docker build` y `docker run`](#utilizando-docker-build-y-docker-run)
 
 
 ## Instalación 
