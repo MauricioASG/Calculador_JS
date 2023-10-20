@@ -1,0 +1,12 @@
+# Usa una imagen base de Node.js
+FROM node:12.22.1-alpine3.11
+
+# Establece el directorio de trabajo dentro del contenedor
+WORKDIR /app
+
+# Copia el código de la aplicación a la imagen
+COPY calculadora.js /app/
+
+
+# Comando para ejecutar la aplicación cuando se inicia el contenedor
+CMD ["node", "calculadora.js"]
